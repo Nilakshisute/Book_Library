@@ -32,7 +32,7 @@ export const Login = () => {
             localStorage.setItem("user", JSON.stringify (response.user))
            
             
-            navigate('/dashboard')
+            navigate('/home')
 
         } catch (error) {
             console.log(error)

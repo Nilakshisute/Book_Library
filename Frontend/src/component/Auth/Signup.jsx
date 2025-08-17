@@ -44,7 +44,7 @@ export const Signup = () => {
         localStorage.setItem("user", response.user)
        
          alert("sign up sucessfull")
-        navigate('/dashboard')
+        navigate('/login')
 
        } catch (error) {
           console.log(error)

@@ -24,7 +24,7 @@ export const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
 
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/mybooks" element={<MyBooks />} />
 
           {/* <Route
@@ -55,7 +55,7 @@ export const App = () => {
           <Route path="/request" element={<DashboardLayout />} />
           <Route path="/contact" element={<DashboardLayout />} /> */}
 
-          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
  
     </Router>
